@@ -140,8 +140,9 @@
     <ClInclude Include="Geometry.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Point2D.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Point2D.cpp" />
+    <ClCompile Include="CheckingVersion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
