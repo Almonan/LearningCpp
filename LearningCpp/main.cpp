@@ -1,4 +1,7 @@
 #include <iostream>
+#include <vector>
+
+using std::vector;
 
 // Se tiene que crear primero porque es el orden logico de compilacion. Si lo pones despues, no compila poruqe no esta definido antes.
 struct Vector2D
@@ -46,6 +49,13 @@ int main()
 	RestVector(vector1, vector2);
 
 	// perform operations between points and vectors.
+
+	// Create vector variable and initialization by value (empty array).
+	std::vector<Point2D> testPoints{};
+
+	// Create vector variable and initialization by direct Copy,
+	vector<Point2D> testPoints2(8);
+
 }
 
 Vector2D SumVector(Vector2D vector1, Vector2D vector2)
